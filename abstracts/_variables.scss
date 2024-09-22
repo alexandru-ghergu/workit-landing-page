@@ -1,0 +1,60 @@
+// ######################################################
+
+@font-face {
+    font-family: 'fraunces';
+    src: url('../assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'manrope-regular';
+    src: url('../assets/fonts/manrope/static/Manrope-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'manrope-bold';
+    src: url('../assets/fonts/manrope/Manrope-VariableFont_wght.ttf') format('truetype');
+}
+
+// ######################################################
+
+$purple-900: hsl(273, 85%, 13%);
+$purple-500: hsl(271, 12%, 34%);
+$purple-100: hsl(276, 100%, 99%);
+
+$green: hsl(150, 100%, 63%);
+
+$white: hsl(0, 0%, 100%);
+
+// ######################################################
+
+$spacing-100: 0.5rem;
+$spacing-150: 0.75rem;
+$spacing-200: 1rem;
+$spacing-250: 1.25rem;
+$spacing-300: 1.5rem;
+$spacing-350: 1.75rem;
+$spacing-400: 2rem;
+$spacing-500: 2.5rem;
+$spacing-550: 2.75rem;
+$spacing-600: 3rem;
+$spacing-700: 3.5rem;
+$spacing-800: 4rem;
+$spacing-1000: 5rem;
+$spacing-1100: 5.5rem;
+$spacing-1200: 6.25rem;
+$spacing-1400: 7rem;
+$spacing-1600: 7.5rem;
+$spacing-1600: 8rem;
+$spacing-1700: 8.75rem;
+$spacing-1800: 9rem;
+$spacing-1900: 9.69rem;
+$spacing-2000: 10rem;
+$spacing-2100: 10.5rem;
+$spacing-2050: 11.25rem;
+$spacing-2200: 12.5rem;
+$spacing-3700: 18.5rem;
+$spacing-4000: 25rem;
+$spacing-4200: 28.44rem;
+$spacing-4500: 30.32rem;
+$spacing-5000: 36.88rem;
+$spacing-5500: 39.38rem;

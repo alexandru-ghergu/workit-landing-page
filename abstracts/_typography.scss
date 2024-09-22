@@ -1,0 +1,87 @@
+@use 'mixins';
+
+// ######################################################
+
+@media screen and (min-width: 1440px) {
+
+    h1 {
+        @include mixins.desktop-fraunces-1();
+    }
+    
+    h2 {
+        @include mixins.desktop-fraunces-2();
+    }
+    
+    h3 {
+        @include mixins.desktop-fraunces-3();
+    }
+    
+    p {
+        @include mixins.desktop-manrope-p-regular();
+    }
+
+    button {
+        @include mixins.desktop-manrope-p-bold();
+    }
+}
+
+// ######################################################
+
+@media (min-width: 768px) and (max-width: 1439px) {
+
+    h1 {
+        @include mixins.tablet-fraunces-1();
+    }
+    
+    h2 {
+        @include mixins.tablet-fraunces-2();
+    }
+    
+    h3 {
+        @include mixins.tablet-fraunces-3();
+    }
+
+    h4 {
+        @include mixins.tablet-fraunces-4();
+    }
+    
+    
+    p {
+        @include mixins.tablet-manrope-p-regular();
+    }
+
+    button {
+        @include mixins.tablet-manrope-p-bold();
+    }
+
+}
+
+// ######################################################
+
+@media (max-width: 767px) {
+
+    h1 {
+        @include mixins.mobile-fraunces-1();
+    }
+    
+    h2 {
+        @include mixins.mobile-fraunces-2();
+    }
+    
+    h3 {
+        @include mixins.mobile-fraunces-3();
+    }
+
+    h4 {
+        @include mixins.mobile-fraunces-4();
+    }
+    
+    p {
+        @include mixins.mobile-manrope-p-regular();
+    }
+
+    button {
+        @include mixins.mobile-manrope-p-bold();
+    }
+    
+}
