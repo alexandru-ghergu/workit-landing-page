@@ -117,6 +117,14 @@ nav button:hover {
 .page-title-container h1 {
     width: 20.94rem;
     color: abstracts.$white;
+
+    @include abstracts.for-size(tablet-only) {
+        width: 39.69rem;
+    }
+
+    @include abstracts.for-size(desktop-only) {
+        width: 39.69rem;
+    }
 }
 
 .page-title-container span {
