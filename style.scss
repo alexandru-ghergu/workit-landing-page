@@ -109,11 +109,13 @@ nav button:hover {
 }
 
 .page-title-container {
+    @include abstracts.display-flex-column();
     margin-top: abstracts.$spacing-700;
     padding: 0 abstracts.$spacing-250;
 }
 
 .page-title-container h1 {
+    width: 20.94rem;
     color: abstracts.$white;
 }
 
