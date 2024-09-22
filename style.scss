@@ -23,7 +23,7 @@ header {
     background: abstracts.$purple-900;
 
     @include abstracts.for-size(desktop-only) {
-        height: 43.75rem;
+        height: 40.63rem;
     }
 }
 
@@ -75,7 +75,7 @@ header::after {
     right: -6.25rem;
 
     @include abstracts.for-size(desktop-only) {
-        top: 20rem;
+        top: 20.63rem;
         right: -3.13rem;
     }
 }
@@ -164,7 +164,7 @@ nav button:hover {
     @include abstracts.for-size(desktop-only) {
         width: 47.94rem;
         height: 27.57rem;
-        margin-top: abstracts.$spacing-2200;
+        margin-top: abstracts.$spacing-1800;
     }
 }
 
